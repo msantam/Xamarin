@@ -9,9 +9,11 @@ namespace Actividad3
 		{	
 			return new ContentPage { 
 				Content = new Label {
-					Text = "Hello, Forms!",
-					VerticalOptions = LayoutOptions.CenterAndExpand,
-					HorizontalOptions = LayoutOptions.CenterAndExpand,
+					Text = "Miguel Angel Santamaria Rosas 088327817",
+					VerticalOptions = LayoutOptions.Fill,
+					HorizontalOptions = LayoutOptions.End,
+					BackgroundColor = Color.Blue,
+					TextColor = Color.Green
 				},
 			};
 		}
