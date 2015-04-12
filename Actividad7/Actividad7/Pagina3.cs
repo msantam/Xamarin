@@ -1,4 +1,5 @@
 ﻿using System;
+using Xamarin.Forms;
 
 namespace Actividad7
 {
@@ -6,9 +7,9 @@ namespace Actividad7
 	{
 		public Pagina3 ()
 		{
-			Label3 texto = new Label3 {
+			Label texto = new Label {
 				Text = "Página 3",
-				TextColor = ConsoleColor.Red
+				TextColor = Color.Aqua
 			};
 		}
 	}
