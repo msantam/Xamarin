@@ -17,7 +17,9 @@ namespace Actividad7
 				Text = "Click para navegar a la Página3"
 			};
 
-			boton.Clicked += (sender, e) => Navigation.PushAsync (new Pagina3 ());
+			boton.Clicked += (sender, e) => {
+				this.Navigation.PushAsync(new Pagina3());
+			};
 
 			//Stacklayout permite apilar los controles verticalmente
 			StackLayout stackLayout = new StackLayout
