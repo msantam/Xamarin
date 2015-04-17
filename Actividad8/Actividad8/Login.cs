@@ -11,13 +11,13 @@ namespace Actividad8
 			Entry clave = new Entry { Placeholder = "Clave", IsPassword = true };
 
 			Button boton = new Button {
-				Text = "Login",
+				Text = "Login e ir a Contenido",
 				TextColor = Color.White,
 				BackgroundColor = Color.FromHex ("77D065") 
 			};
 
 			boton.Clicked += (sender, e) => {
-
+				this.Navigation.PushAsync(new Contenido());
 			};
 
 			//Stacklayout permite apilar los controles verticalmente
