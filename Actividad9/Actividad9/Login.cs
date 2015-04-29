@@ -21,6 +21,9 @@ namespace Actividad9
 				if(usuario.Text.Equals("usuario")){
 					Navigation.PushAsync(new Contenido());
 				}
+				if(clave.Text.Equals("clave")){
+					Navigation.PushAsync(new Contenido());
+				}
 			};
 
 			//Stacklayout permite apilar los controles verticalmente
