@@ -7,7 +7,10 @@ namespace Actividad9
 	{
 		public Contenido ()
 		{
-
+			Label text = new Label {
+			Text = "Hola, bienvenido a Contenido",
+			TextColor = Color.Red
+			};
 		}
 	}
 }
