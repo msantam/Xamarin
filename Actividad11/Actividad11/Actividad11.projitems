@@ -9,9 +9,10 @@
     <Import_RootNamespace>Actividad11</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)Actividad11.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Contenido.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Frutas.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)FrutasCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Login.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
   </ItemGroup>
 </Project>
