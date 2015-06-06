@@ -12,7 +12,7 @@ namespace Actividad11
 		public App()
 		{
 			//Esta es la nueva manera de crear la aplicacion
-			MainPage = new NavigationPage (new Contenido());
+			MainPage = new NavigationPage (new Login());
 		}
 
 
